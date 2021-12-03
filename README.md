@@ -4,7 +4,7 @@ Final project for Internet of Things course
 Prerequisites:
  - MathWorks account
  - ThingSpeak channel
- - Smart phone with MATLAB online application installed
+ - Smart phone with MATLAB online application installed, and wifi (or cellular network, we recommend using this)
  - Computer
 
 How to use:
