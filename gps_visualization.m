@@ -4,9 +4,9 @@
 readKey = '****************'; 
 channel_id = *******; 
 
-latitude = thingSpeakRead(channel_id, 'Fields', 1, 'ReadKey', readKey, 'NumPoints', 1000, 'Timeout', 50);
-longitude = thingSpeakRead(channel_id, 'Fields', 2, 'ReadKey', readKey, 'NumPoints', 1000, 'Timeout', 50);
-speed = thingSpeakRead(channel_id, 'Fields', 3, 'ReadKey', readKey, 'NumPoints', 1000, 'Timeout', 50);
+latitude = thingSpeakRead(channel_id, 'Fields', 1, 'ReadKey', readKey, 'NumPoints', 8000, 'Timeout', 50);
+longitude = thingSpeakRead(channel_id, 'Fields', 2, 'ReadKey', readKey, 'NumPoints', 8000, 'Timeout', 50);
+speed = thingSpeakRead(channel_id, 'Fields', 3, 'ReadKey', readKey, 'NumPoints', 8000, 'Timeout', 50);
 
 %preprocessing of the data
 rule = speed > 0;
